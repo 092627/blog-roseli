@@ -1,0 +1,30 @@
+/*
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Seu Nome Completo
+email_aluno: seu.email@exemplo.com
+turma: Código da Turma
+*/
+
+/* seletor universal, zera margens... */
+body
+{ 
+margin-left: auto;}
+img
+{
+   width: 150px; 
+   height: 200px;
+   display: block;
+   margin: 0 auto;
+}
+strong
+{
+   display: block;
+   margin: 0 auto;
+
+}
+p
+{
+   text-align: center;
+}
