@@ -1,0 +1,76 @@
+<!--
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: contato.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Ruan Enrico Dos Santos Perez
+email_aluno: ruan.perez@aluno.cps.sp.gov.br
+turma:  WEBI-ISW028-A
+--><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Receitas da Roseli - Contato</title>
+    
+    <!-- CSS Exclusivo e Centralizado -->
+    <link rel="stylesheet" href="static/css/styles.css" >
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header id="topo">
+        <div class="logo-titulo">
+            <img src="static/images/blog roseli.jpg" alt="Logo da Roseli" class="logo-topo">
+            <h1>Receitas do Roseli</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal da Página de Contato -->
+    <main>
+        <h2>Entre em Contato</h2>
+        <p>estou a disposição para trocar ideias sobre novos pratos e receitas!</p>
+        <p>Se você tiver alguma dúvida, sugestão ou apenas quiser compartilhar sua experiência com nossas receitas, fique à vontade para nos enviar uma mensagem através do formulário abaixo.</p>
+        <!-- Redes e Perfis Profissionais com Hiperlinks apenas nos nomes -->
+        <ul>
+            <p><a href="https://www.instagram.com/ni.roseli?utm_source=qr&stkn=OHM0a2p0YmJvaTBs" target="_blank">Instagram</a></p>
+            <p><a href="https://wa.me/qr/7TENRJG5T7JEL1" target="_blank">whatsapp</a></p>
+        </ul>
+
+        <!-- Formulário de Mensagens -->
+        <section class="contato">
+            <h2>Deixe uma Mensagem</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem ou dúvida" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+    <p>&copy; 2026 - Desenvolvido por <strong>Ruan Enrico Dos Santos Perez</strong></p>
+    <a href="#topo">Voltar ao Topo</a>
+</footer>
+
+</body>
+</html>
